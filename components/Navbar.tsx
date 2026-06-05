@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -28,7 +28,7 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-[1200px] mx-auto px-6 py-5 flex items-center justify-between">
-          <a href="#" style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-xl font-bold tracking-tight text-white">
+          <a href="#" style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-xl font-bold tracking-normal text-white">
             360<span style={{ color: "#facc15" }}>SPORTS</span> MEDIA
           </a>
 
@@ -48,11 +48,11 @@ export default function Navbar() {
 
           <a
             href="#contact"
-            style={{ fontFamily: "'Clash Display', sans-serif", background: "#004aad" }}
-            className="hidden md:flex items-center gap-3 text-white text-[12px] font-bold tracking-widest uppercase px-5 py-3 transition-colors hover:bg-[#0057cc]"
+            style={{ fontFamily: "'Clash Display', sans-serif" }}
+            className="btn-blue hidden md:flex items-center gap-3 text-[12px] font-bold tracking-widest uppercase px-5 py-3"
           >
             Get In Touch
-            <span className="w-5 h-5 flex items-center justify-center text-[#004aad] bg-[#facc15] text-xs font-bold">↗</span>
+            <ArrowUpRight size={14} className="text-[#004aad] bg-[#facc15]" />
           </a>
 
           <button className="md:hidden text-white" onClick={() => setOpen(true)}>
@@ -72,7 +72,7 @@ export default function Navbar() {
               href={l.href}
               onClick={() => setOpen(false)}
               style={{ fontFamily: "'Clash Display', sans-serif" }}
-              className="text-5xl font-bold uppercase text-white hover:text-[#facc15] tracking-tight transition-colors"
+              className="text-5xl font-bold uppercase text-white hover:text-[#facc15] tracking-normal transition-colors"
             >
               {l.label}
             </a>

@@ -37,7 +37,7 @@ export default function Alumni() {
           </span>
           <h2
             style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.92 }}
-            className="text-[clamp(36px,5vw,60px)] font-bold uppercase tracking-tight text-black"
+            className="text-[clamp(36px,5vw,60px)] font-bold uppercase tracking-normal text-black"
           >
             ATHLETES WHO<br />WORKED WITH US
           </h2>
@@ -78,7 +78,7 @@ export default function Alumni() {
                 </div>
                 <h3
                   style={{ fontFamily: "'Clash Display', sans-serif" }}
-                  className="text-[28px] font-bold uppercase text-white tracking-tight leading-tight mb-2"
+                  className="text-[28px] font-bold uppercase text-white tracking-normal leading-tight mb-2"
                 >
                   {a.name.toUpperCase()}
                 </h3>

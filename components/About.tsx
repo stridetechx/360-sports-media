@@ -19,7 +19,7 @@ export default function About() {
             </span>
             <h2
               style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.95 }}
-              className="text-[clamp(36px,4.5vw,58px)] font-bold uppercase tracking-tight text-black"
+              className="text-[clamp(36px,4.5vw,58px)] font-bold uppercase tracking-normal text-black"
             >
               GREAT SPORTS{" "}
               <span className="text-black/20">DESERVES</span>{" "}

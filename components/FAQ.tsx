@@ -26,7 +26,7 @@ export default function FAQ() {
             </span>
             <h2
               style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.95 }}
-              className="text-[clamp(36px,4.5vw,52px)] font-bold uppercase tracking-tight text-black mb-5"
+              className="text-[clamp(36px,4.5vw,52px)] font-bold uppercase tracking-normal text-black mb-5"
             >
               LOOKING FOR ANSWERS?
             </h2>
@@ -43,7 +43,7 @@ export default function FAQ() {
                   className="w-full flex items-center justify-between py-5 text-left gap-5"
                   onClick={() => setOpenIdx(openIdx === i ? null : i)}
                 >
-                  <span style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-[16px] font-bold uppercase tracking-tight text-black">
+                  <span style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-[16px] font-bold uppercase tracking-normal text-black">
                     {faq.q}
                   </span>
                   <span

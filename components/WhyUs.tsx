@@ -1,3 +1,5 @@
+import { ArrowUpRight } from "lucide-react";
+
 const reasons = [
   { title: "End-to-End Coverage", desc: "Cameras, commentators, umpires, stream, and post-production — one team, one invoice. No juggling multiple vendors." },
   { title: "Cricket-First Expertise", desc: "500+ cricket matches covered across Karnataka, from grassroots club games to state-level tournaments, with proven broadcast quality." },
@@ -21,7 +23,7 @@ export default function WhyUs() {
             </span>
             <h2
               style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.92 }}
-              className="text-[clamp(36px,4.5vw,60px)] font-bold uppercase tracking-tight text-black mb-6"
+              className="text-[clamp(36px,4.5vw,60px)] font-bold uppercase tracking-normal text-black mb-6"
             >
               ONE TEAM.<br />FULL COVERAGE.
             </h2>
@@ -30,11 +32,11 @@ export default function WhyUs() {
             </p>
             <a
               href="#contact"
-              style={{ fontFamily: "'Clash Display', sans-serif", background: "#004aad" }}
-              className="inline-flex items-center gap-3 text-white text-[12px] font-bold tracking-widest uppercase px-5 py-3.5 hover:bg-[#0057cc] transition-colors"
+              style={{ fontFamily: "'Clash Display', sans-serif" }}
+              className="btn-yellow inline-flex items-center gap-3 text-[12px] font-bold tracking-widest uppercase px-5 py-3.5"
             >
               Partner With Us
-              <span style={{ background: "#facc15", color: "#004aad" }} className="w-6 h-6 flex items-center justify-center text-sm font-bold">↗</span>
+              <span style={{ background: "#facc15" }} className="w-6 h-6 flex items-center justify-center"><ArrowUpRight size={14} color="#004aad" /></span>
             </a>
           </div>
 

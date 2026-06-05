@@ -1,3 +1,5 @@
+import { ArrowUpRight } from "lucide-react";
+
 const features = [
   "Multi-camera HD & 4K production",
   "Real-time scores and graphics overlay",
@@ -25,7 +27,7 @@ export default function LiveSection() {
 
             <h2
               style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.92 }}
-              className="text-[clamp(34px,4vw,56px)] font-bold uppercase tracking-tight text-white mb-5"
+              className="text-[clamp(34px,4vw,56px)] font-bold uppercase tracking-normal text-white mb-5"
             >
               PROFESSIONAL<br />LIVE STREAMING
             </h2>
@@ -51,7 +53,7 @@ export default function LiveSection() {
               className="flex items-center gap-3 text-[#0a0a0a] text-[12px] font-bold tracking-widest uppercase px-6 py-4 hover:bg-[#e6b800] transition-colors whitespace-nowrap"
             >
               Book A Stream
-              <span style={{ background: "#004aad" }} className="w-6 h-6 flex items-center justify-center text-[#facc15] text-sm">↗</span>
+              <span style={{ background: "#004aad" }} className="w-6 h-6 flex items-center justify-center"><ArrowUpRight size={14} color="#facc15" /></span>
             </a>
             <div style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-white/30 text-[11px] tracking-widest uppercase">
               Available 7 Days / Week

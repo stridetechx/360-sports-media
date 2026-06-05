@@ -18,7 +18,7 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="bg-white py-24">
+    <section id="reviews" className="py-24" style={{ background: "#facc15" }}>
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12">
           <span
@@ -29,11 +29,11 @@ export default function Reviews() {
           </span>
           <h2
             style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.95 }}
-            className="text-[clamp(36px,5vw,58px)] font-bold uppercase tracking-tight text-black mb-3"
+            className="text-[clamp(36px,5vw,58px)] font-bold uppercase tracking-normal text-black mb-3"
           >
             WHAT PEOPLE SAY
           </h2>
-          <p className="text-black/50 text-[15px] max-w-[500px] leading-relaxed">
+          <p className="text-black/60 text-[15px] max-w-[500px] leading-relaxed">
             Real stories from tournament directors, clubs, and associations across Bengaluru and Karnataka.
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function Reviews() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {reviews.map((r, i) => (
             <div key={i} className="bg-white p-8 flex flex-col" style={{ minHeight: "320px" }}>
-              {/* Big quote mark like reference */}
+              {/* Big quote mark */}
               <div
                 style={{ fontFamily: "'Clash Display', sans-serif", color: "rgba(0,74,173,0.12)", fontSize: "80px", lineHeight: 1 }}
                 className="font-bold mb-2 select-none"

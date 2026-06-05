@@ -20,7 +20,7 @@ export default function Team() {
           </span>
           <h2
             style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.92 }}
-            className="text-[clamp(36px,5vw,60px)] font-bold uppercase tracking-tight text-black mb-4"
+            className="text-[clamp(36px,5vw,60px)] font-bold uppercase tracking-normal text-black mb-4"
           >
             EXPERTS BEHIND<br />THE MIC
           </h2>
@@ -62,7 +62,7 @@ export default function Team() {
               >
                 <div
                   style={{ fontFamily: "'Clash Display', sans-serif" }}
-                  className="text-[20px] font-bold uppercase text-white tracking-tight leading-tight"
+                  className="text-[20px] font-bold uppercase text-white tracking-normal leading-tight"
                 >
                   {m.name.split(" ")[0].toUpperCase()}<br />{m.name.split(" ")[1].toUpperCase()}
                 </div>

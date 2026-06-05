@@ -31,4 +31,65 @@ body {
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #0a0a0a; }
-::-webkit-scrollbar-thumb { background: #1a5c32; }
+::-webkit-scrollbar-thumb { background: #004aad; }
+
+/* Clash Display — global letter spacing */
+[style*="Clash Display"] {
+  letter-spacing: 0.03em !important;
+}
+
+/* ── Button hover animations — solid fill → outline ── */
+.btn-yellow {
+  background: #facc15;
+  color: #0a0a0a;
+  border: 2px solid #facc15;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.btn-yellow:hover {
+  background: transparent;
+  color: #facc15;
+}
+
+.btn-blue {
+  background: #004aad;
+  color: #ffffff;
+  border: 2px solid #004aad;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.btn-blue:hover {
+  background: transparent;
+  color: #004aad;
+}
+
+.btn-blue-white {
+  background: #004aad;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.btn-blue-white:hover {
+  background: transparent;
+  color: #ffffff;
+}
+
+.btn-dark {
+  background: #0a0a0a;
+  color: #ffffff;
+  border: 2px solid #0a0a0a;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.btn-dark:hover {
+  background: transparent;
+  color: #0a0a0a;
+}
+
+.btn-outline-white {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255,255,255,0.35);
+  transition: border-color 0.25s ease, background 0.25s ease;
+}
+.btn-outline-white:hover {
+  border-color: #ffffff;
+  background: rgba(255,255,255,0.08);
+}

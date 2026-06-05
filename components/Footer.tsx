@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="w-10 h-10 flex items-center justify-center text-lg font-bold" style={{ background: "#004aad", color: "#facc15", fontFamily: "'Clash Display', sans-serif" }}>
                 3
               </div>
-              <span style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-2xl font-bold tracking-tight text-black">
+              <span style={{ fontFamily: "'Clash Display', sans-serif" }} className="text-2xl font-bold tracking-normal text-black">
                 360<span style={{ color: "#004aad" }}>SPORTS</span> MEDIA
               </span>
             </div>

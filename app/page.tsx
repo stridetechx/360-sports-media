@@ -4,11 +4,9 @@ import Ticker from "@/components/Ticker";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Sports from "@/components/Sports";
-import LiveSection from "@/components/LiveSection";
 import SocialSection from "@/components/SocialSection";
 import WhyUs from "@/components/WhyUs";
-import Team from "@/components/Team";
-import Alumni from "@/components/Alumni";
+import Pricing from "@/components/Pricing";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
@@ -23,11 +21,9 @@ export default function Home() {
       <About />
       <Services />
       <Sports />
-      <LiveSection />
       <SocialSection />
       <WhyUs />
-      <Team />
-      <Alumni />
+      <Pricing />
       <Reviews />
       <FAQ />
       <Contact />

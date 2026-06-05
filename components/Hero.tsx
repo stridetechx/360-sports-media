@@ -1,4 +1,5 @@
 "use client";
+import { ArrowUpRight } from "lucide-react";
 
 const stats = [
   { num: "500+", label: "Matches Covered" },
@@ -41,7 +42,7 @@ export default function Hero() {
         </div>
 
         <h1
-          style={{ fontFamily: "'Clash Display', sans-serif", fontSize: "clamp(52px,8.5vw,116px)", letterSpacing: "-0.03em", lineHeight: 0.9 }}
+          style={{ fontFamily: "'Clash Display', sans-serif", fontSize: "clamp(52px,8.5vw,116px)", letterSpacing: "0.02em", lineHeight: 0.9 }}
           className="font-bold uppercase text-white mb-8"
         >
           <span className="block">WHERE THE</span>
@@ -57,16 +58,16 @@ export default function Hero() {
             <div className="flex items-center gap-4">
               <a
                 href="#services"
-                style={{ fontFamily: "'Clash Display', sans-serif", background: "#facc15" }}
-                className="flex items-center gap-3 text-[#0a0a0a] text-[12px] font-bold tracking-widest uppercase px-5 py-3.5 hover:bg-[#e6b800] transition-colors"
+                style={{ fontFamily: "'Clash Display', sans-serif" }}
+                className="btn-yellow flex items-center gap-3 text-[12px] font-bold tracking-widest uppercase px-5 py-3.5"
               >
                 Our Services
-                <span className="w-6 h-6 flex items-center justify-center text-[#facc15] text-xs" style={{ background: "#004aad" }}>↗</span>
+                <span className="w-6 h-6 flex items-center justify-center" style={{ background: "#004aad" }}><ArrowUpRight size={14} color="#facc15" /></span>
               </a>
               <a
                 href="#contact"
                 style={{ fontFamily: "'Clash Display', sans-serif" }}
-                className="flex items-center gap-3 border border-white/25 text-white text-[12px] font-bold tracking-widest uppercase px-5 py-3.5 hover:border-white/60 transition-colors"
+                className="btn-outline-white flex items-center gap-3 text-[12px] font-bold tracking-widest uppercase px-5 py-3.5"
               >
                 Work With Us
               </a>
