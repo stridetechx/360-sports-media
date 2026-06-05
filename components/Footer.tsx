@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#f0ebe0]">
+    <footer className="bg-white">
       <div className="max-w-[1200px] mx-auto px-6 pt-14 pb-8">
 
         {/* Top: logo left, socials right */}

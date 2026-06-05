@@ -14,7 +14,7 @@ export default function FAQ() {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="bg-[#f0ebe0] py-24">
+    <section id="faq" className="bg-white py-24">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_1.8fr] gap-16 items-start">
           <div className="md:sticky md:top-28">

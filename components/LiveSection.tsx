@@ -9,7 +9,7 @@ const features = [
 
 export default function LiveSection() {
   return (
-    <section className="bg-[#0a0a0a] py-20">
+    <section className="bg-white py-20">
       <div className="max-w-[1200px] mx-auto px-6">
         <div
           className="p-14 md:p-20 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-16 items-center"

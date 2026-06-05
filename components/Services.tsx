@@ -45,7 +45,7 @@ const row3 = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-[#f0ebe0] py-24">
+    <section id="services" className="bg-white py-24">
       <div className="max-w-[1200px] mx-auto px-6">
 
         {/* Header */}

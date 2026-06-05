@@ -82,7 +82,7 @@ const posters = [
 
 export default function SocialSection() {
   return (
-    <section id="social" className="bg-[#0a0a0a] py-24">
+    <section id="social" className="bg-white py-24">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
@@ -94,12 +94,12 @@ export default function SocialSection() {
             </span>
             <h2
               style={{ fontFamily: "'Clash Display', sans-serif", lineHeight: 0.92 }}
-              className="text-[clamp(36px,5vw,62px)] font-bold uppercase tracking-tight text-white"
+              className="text-[clamp(36px,5vw,62px)] font-bold uppercase tracking-tight text-black"
             >
               CONTENT THAT<br />GOES VIRAL
             </h2>
           </div>
-          <p className="text-white/40 text-[14px] leading-relaxed max-w-[280px] md:text-right">
+          <p className="text-black/45 text-[14px] leading-relaxed max-w-[280px] md:text-right">
             Every match we cover becomes a content machine — posters, reels, scorecard updates, and more.
           </p>
         </div>
@@ -168,7 +168,7 @@ export default function SocialSection() {
         {/* Stats row */}
         <div
           className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-px"
-          style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.07)" }}
+          style={{ background: "rgba(0,0,0,0.04)", border: "1px solid rgba(0,0,0,0.08)" }}
         >
           {[
             { num: "200+", label: "Posters Monthly" },
@@ -176,11 +176,11 @@ export default function SocialSection() {
             { num: "1.2M+", label: "Total Reach" },
             { num: "4", label: "Platforms Covered" },
           ].map((s) => (
-            <div key={s.label} className="bg-[#0a0a0a] px-8 py-7 text-center">
-              <div style={{ fontFamily: "'Clash Display', sans-serif", color: "#facc15" }} className="text-3xl font-bold leading-none mb-2">
+            <div key={s.label} className="bg-white px-8 py-7 text-center">
+              <div style={{ fontFamily: "'Clash Display', sans-serif", color: "#004aad" }} className="text-3xl font-bold leading-none mb-2">
                 {s.num}
               </div>
-              <div className="text-[11px] uppercase tracking-widest text-white/35">{s.label}</div>
+              <div className="text-[11px] uppercase tracking-widest text-black/40">{s.label}</div>
             </div>
           ))}
         </div>
