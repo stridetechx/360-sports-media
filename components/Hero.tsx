@@ -58,8 +58,8 @@ export default function Hero() {
             <div className="flex items-center gap-4">
               <a
                 href="#services"
-                style={{ fontFamily: "'Clash Display', sans-serif" }}
-                className="btn-yellow flex items-center gap-3 text-[12px] font-bold tracking-widest uppercase px-5 py-3.5"
+                style={{ fontFamily: "'Clash Display', sans-serif", background: "#facc15" }}
+                className="flex items-center gap-3 text-[#0a0a0a] text-[12px] font-bold tracking-widest uppercase px-5 py-3.5 hover:bg-[#e6b800] transition-colors"
               >
                 Our Services
                 <span className="w-6 h-6 flex items-center justify-center" style={{ background: "#004aad" }}><ArrowUpRight size={14} color="#facc15" /></span>
@@ -67,7 +67,7 @@ export default function Hero() {
               <a
                 href="#contact"
                 style={{ fontFamily: "'Clash Display', sans-serif" }}
-                className="btn-outline-white flex items-center gap-3 text-[12px] font-bold tracking-widest uppercase px-5 py-3.5"
+                className="flex items-center gap-3 text-white text-[12px] font-bold tracking-widest uppercase px-5 py-3.5 border border-white/30 hover:border-white/70 transition-colors"
               >
                 Work With Us
               </a>

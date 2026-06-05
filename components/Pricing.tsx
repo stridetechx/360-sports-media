@@ -179,7 +179,7 @@ export default function Pricing() {
                     background: plan.highlight ? "#facc15" : "#004aad",
                     color: plan.highlight ? "#0a0a0a" : "#ffffff",
                   }}
-                  className="block w-full text-[12px] font-bold tracking-widest uppercase text-center py-4 mb-7"
+                  className="block w-full text-[12px] font-bold tracking-widest uppercase text-center py-4 mb-7 hover:brightness-110 transition-all duration-200"
                 >
                   GET STARTED
                 </a>
@@ -265,7 +265,7 @@ export default function Pricing() {
                     background: plan.highlight ? "#facc15" : "#004aad",
                     color: plan.highlight ? "#0a0a0a" : "#ffffff",
                   }}
-                  className="block w-full text-[12px] font-bold tracking-widest uppercase text-center py-4 mb-7"
+                  className="block w-full text-[12px] font-bold tracking-widest uppercase text-center py-4 mb-7 hover:brightness-110 transition-all duration-200"
                 >
                   GET STARTED
                 </a>

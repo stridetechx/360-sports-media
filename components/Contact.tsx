@@ -140,8 +140,8 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  style={{ fontFamily: "'Clash Display', sans-serif" }}
-                  className="btn-blue w-full flex items-center justify-between text-[13px] font-bold tracking-widest uppercase px-6 py-4"
+                  className="w-full flex items-center justify-between text-white text-[13px] font-bold tracking-widest uppercase px-6 py-4 hover:bg-[#0057cc] transition-colors"
+                  style={{ fontFamily: "'Clash Display', sans-serif", background: "#004aad" }}
                 >
                   Submit Request
                   <span style={{ background: "#facc15" }} className="w-7 h-7 flex items-center justify-center"><ArrowUpRight size={16} color="#004aad" /></span>

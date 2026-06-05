@@ -87,7 +87,7 @@ export default function Sports() {
                 <a
                   href="#contact"
                   style={{ fontFamily: "'Clash Display', sans-serif" }}
-                  className="btn-dark block w-full text-[13px] font-bold tracking-widest uppercase text-center py-4"
+                  className="block w-full bg-white text-black text-[13px] font-bold tracking-widest uppercase text-center py-4 hover:bg-[#facc15] transition-colors duration-200"
                 >
                   INQUIRE NOW
                 </a>
